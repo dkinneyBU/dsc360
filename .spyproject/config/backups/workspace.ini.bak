@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['../../../.config/spyder-py3/temp.py', '12 Week/week_4/contractions.py']
+recent_files = ['../../../.config/spyder-py3/temp.py', '12 Week/Week 2/SimpleAPI.py', '12 Week/week_3/ReadPDF.py']
 
 [main]
 version = 0.2.0
