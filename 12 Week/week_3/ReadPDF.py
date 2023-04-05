@@ -44,11 +44,11 @@ from PIL import Image
 from pytesseract import pytesseract
 
 # %%
-path_to_tesseract = "/home/david/miniconda3/bin/tesseract"
+path_to_tesseract = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 pytesseract.tesseract_cmd = path_to_tesseract
 
 # %%
-img = Image.open("/home/david/Documents/GitHub/dsc360/bowers.jpg")
+img = Image.open(r"C:\Users\David\Workspaces\dsc360\12 Week\week_3\bowers.jpg")
 text = pytesseract.image_to_string(img)
 
 # %% sPAcY: print tokens
